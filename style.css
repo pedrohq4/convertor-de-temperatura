@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+button{
+  border-radius: 15px;
+  background-color: #9dd4d7;
+  font-size: 18px;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.resultado{
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+body{
+  background-color: cadetblue;
+}
+
+input{
+  background-color: #bbeff2;
+  border-radius: 15px;
+  border-color: cadetblue;
+  text-align: center;
+  font-size: 20px;
+  width: 55px;
+  height: 25px;
+  font-family:Rubik;
+}
+
+h1, label, p{
+  font-family:Rubik
+}

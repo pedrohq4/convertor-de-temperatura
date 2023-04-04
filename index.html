@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Convertor de temperatura</h1>
+
+  <label class="bold">celcius:</label>
+  <input type="text" id=cel class="cel">
+  <button onclick="CelFah()"><strong>converter para Fahrenheit</strong></button>
+  <button onclick="CelKel()"><strong>converter para Kelvin</strong></button>
+  <p class="resultado">seu resultado é: <label id=resultadoCel></label></p>
+  <br>
+ 
+
+  <label class="bold">Fahrenheit:</label>
+  <input type="text" id="fah">
+  <button onclick="FahCel()"><strong>converter para Celcius</strong></button>
+  <button onclick="FahKel()"><strong>converter para Kelvin</strong></button>
+  <p class="resultado">seu resultado é: <label id=resultadoFah></label></p>
+  <br>
+ 
+
+  <label class="bold">Kelvin:</label>
+  <input type="text" id="kel">
+  <button onclick="KelCel()"><strong>converter para Celcius</strong></button>
+  <button onclick="KelFah()"><strong>converter para Fahrenheit</strong></button>
+  <p class="resultado">seu resultado é: <label id=resultadoKel></label></p>
+  
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
